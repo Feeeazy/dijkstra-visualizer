@@ -1,0 +1,19 @@
+# Ambiente Virtual
+.venv/
+env/
+venv/
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testes e Cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ambientes e Configurações de IDE
+.vscode/
+.idea/
+*.swp
