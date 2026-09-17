@@ -26,16 +26,16 @@ Considerando uma malha com $V$ vértices (células) e $E$ arestas (conexões ent
 ### Pré-requisitos
 - **Python 3.10+** (recomendado Python 3.12)
 - **Git**
-### 1. Clonar o Repositório
-```bash
-git clone https://github.com/SEU_USUARIO/dijkstra-visualizer.git
-cd dijkstra-visualizer
 
-# Criar o ambiente virtual
+## Como Executar o Projeto
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/Feeeazy/dijkstra-visualizer.git
+cd dijkstra-visualizer
+# 2. Criar e ativar o ambiente virtual (Windows PowerShell)
 python -m venv .venv
-# Ativar no Windows (PowerShell)
 .\.venv\Scripts\Activate.ps1
-# Instalar dependencias
+# 3. Instalar dependências
 pip install -r requirements.txt
-# Executar a aplicação
-streamlit run src/ui/app.py```
+# 4. Executar a aplicação
+streamlit run src/ui/app.py
